@@ -95,8 +95,6 @@ public class Main extends AppCompatActivity implements SensorEventListener {
 //                            "\"Y\": \"2.0\", " +
 //                            "\"Z\": \"3.0\"" +
 //                            "}";
-
-
             String JSON_CONTENT = params[0];
             try {
                 AssetManager am = Main.this.getAssets();
@@ -121,15 +119,6 @@ public class Main extends AppCompatActivity implements SensorEventListener {
                 } catch (IOException e) {
                     Log.d("Main", e.toString());
                 }
-
-
-//
-//                    if (table == null) {
-//                        Log.d("Main", "Creating table " + tableId);
-//                        Field integerField = Field.of("fieldName", Field.Type.integer());
-//                        Schema schema = Schema.of(integerField);
-//                        table = bigquery.create(TableInfo.of(tableId, StandardTableDefinition.of(schema)));
-//                    }
                 Log.d("Main", "Loading " + Integer.toString(num) + " bytes into table " + tableId);
 
 
