@@ -1,7 +1,7 @@
 # BigQuery Streaming with Android using the gcloud-java library #
 
 This sample Android app shows the [gcloud-java library for BigQuery](https://github.com/GoogleCloudPlatform/gcloud-java#google-cloud-bigquery-alpha) (alpha) working on an Android device.
-The app streams data coming from the Android magnetic sensor (X, Y, Z) into an existing table/dataset in a Google cloud project.
+The app streams data coming from the Android magnetic sensor (X, Y, Z) into an existing table/dataset in BigQuery.
 
 
 ## Configuration
@@ -40,4 +40,4 @@ So, it's mandatory to exclude that dependency when adding **gcloud-java-bigquery
 
 ## Screenshots
 
-Main activity: (pending)
+![image alt text](screenshots/android.png "Android app") ![image alt text](screenshots/bq_console.png "BigQuery console")

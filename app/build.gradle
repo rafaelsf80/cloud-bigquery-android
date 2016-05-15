@@ -28,6 +28,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:gridlayout-v7:23.2.0'
+
     compile ('com.google.cloud:gcloud-java-bigquery:0.2.1') {
         exclude group: 'com.google.api-client', module: 'google-api-client-appengine'
     }
