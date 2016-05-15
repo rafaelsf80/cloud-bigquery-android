@@ -40,4 +40,5 @@ So, it's mandatory to exclude that dependency when adding **gcloud-java-bigquery
 
 ## Screenshots
 
-![image alt text](screenshots/android.png "Android app") ![image alt text](screenshots/bq_console.png "BigQuery console")
+<img src="https://raw.githubusercontent.com/rafaelsf80/cloud-bigquery-android/master/screenshots/android.png" alt="Android app" style="width:200;height:400">
+<img src="https://raw.githubusercontent.com/rafaelsf80/cloud-bigquery-android/master/screenshots/bq_console.png" alt="BigQuery console" style="width:400;height:250">
