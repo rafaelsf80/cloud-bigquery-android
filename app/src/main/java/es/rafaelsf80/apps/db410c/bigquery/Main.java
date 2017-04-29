@@ -31,7 +31,7 @@ public class Main extends AppCompatActivity implements SensorEventListener {
 
     // Credentials file: this file is stored in the assets/ directory. Replace it with yours.
     private final String CREDENTIALS_FILE = "doneval-cloud-d164a2981f94.json";
-    private final String PROJECT_ID = "YOUR_PROJECT_ID";
+    private final String PROJECT_ID = "decent-envoy-503";
     private final int ROW_INTERVAL = 10;
 
     private SensorManager sensorManager;

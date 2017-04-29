@@ -1,4 +1,4 @@
-# BigQuery Streaming from an Android device using the gcloud-java library #
+# Streaming sensor information into Google BigQuery from an Android device #
 
 This sample Android app shows the [gcloud-java library for BigQuery](https://github.com/GoogleCloudPlatform/gcloud-java#google-cloud-bigquery-alpha) (alpha) working on an Android device.
 The app streams data coming from the Android magnetic sensor (X, Y, Z) into an existing table/dataset in BigQuery.
@@ -14,7 +14,7 @@ The app streams data coming from the Android magnetic sensor (X, Y, Z) into an e
 ## Authentication
 
 I use a service account of my cloud project. Replace with yours by downloading the corresponding json file
-into assets/ file. You can use alternative authentication mechanisms if desired.
+into assets/ file. You can use alternative authentication mechanisms, like OAuth2,  if desired.
 
 Remember to enable BigQuery API on your project. You also need to have a dataset and a table (see code).
 
