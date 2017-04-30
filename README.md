@@ -6,7 +6,7 @@ The app streams data coming from the Android magnetic sensor (X, Y, Z) into an e
 
 ## Configuration
 
-1) Android Studio 2.1 Beta 2
+1) Android Studio 2.1
 
 2) Android plugin for gradle
 
